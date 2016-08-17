@@ -10,7 +10,7 @@
 		.s {
             background-color: lightgrey;
             position: relative;
-            height: 200px;
+            height: 250px;
             padding :15px;
             border: 1px solid black;
             box-sizing: border-box;
@@ -27,8 +27,8 @@
 			position: absolute;
 			top: 0;
 			right: 0;
-			width: 80px;
-			height: 30px;
+			width: 120px;
+			height: 40px;
 			text-align: center;	
 		}
 
