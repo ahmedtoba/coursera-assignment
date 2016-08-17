@@ -1,0 +1,84 @@
+
+
+      /* basic Styling */
+
+        h1{
+        	text-align: center;
+        	font-size: 3em;
+        }
+
+		.s {
+            background-color: lightgrey;
+            position: relative;
+            height: 200px;
+            padding :15px;
+            border: 1px solid black;
+            box-sizing: border-box;
+			
+
+		}
+
+		p{
+			font-size: 1.3em;
+			padding: 5px;
+			border: 1px solid black;
+			box-sizing: border-box;
+			margin:0;
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 80px;
+			height: 30px;
+			text-align: center;	
+		}
+
+		#p1 {
+			background-color: lightgreen;
+        }
+
+        #p2 {
+        	background-color: red;
+        	color: white;
+        }
+        
+        #p3 {
+        	background-color: blue;
+        	color: white ;
+        }
+     /* desktop version */
+
+		@media (min-width: 992px) {
+			section {
+                float: left;
+                width: 30%;
+                margin: 15px;
+			}
+		}
+
+
+		/*tablet version */
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			section{
+				float :left;
+				width: 45% ;
+				margin: 15px;
+			}
+
+			#s3 {
+				width: 93% ;
+				margin:15px;
+			}
+
+		}
+
+		/* mobile version */
+
+		@media (max-width: 767px) {
+			 .s {
+				width: 97%;
+				margin:15px;
+			}
+		} 
+
+
